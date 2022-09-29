@@ -1,4 +1,4 @@
-package dev.anderson.bjcp.models;
+package dev.anderson.bjcp.models.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -31,17 +31,17 @@ public class StyleEntity {
 
   private String origin;
 
-  private float abvMin;
-//
-//  private Integer abvMax;
-//
-//  private Integer ibuMin;
-//
-//  private Integer ibuMax;
-//
-//  private Integer srmMin;
-//
-//  private Integer srmMax;
+  private Float abvMin;
+
+  private Float abvMax;
+
+  private Integer ibuMin;
+
+  private Integer ibuMax;
+
+  private Float srmMin;
+
+  private Float srmMax;
 
   public static StyleEntity fromCsv(CSVRecord csvRecord) {
     StyleEntity styleEntity = new StyleEntity(
@@ -52,7 +52,13 @@ public class StyleEntity {
         csvRecord.get(3),
         csvRecord.get(4),
         csvRecord.get(5),
-        Float.parseFloat(csvRecord.get(6)));
+        Float.parseFloat(csvRecord.get(6)),
+        Float.parseFloat(csvRecord.get(7)),
+        Integer.parseInt(csvRecord.get(8)),
+        Integer.parseInt(csvRecord.get(9)),
+        Float.parseFloat(csvRecord.get(10)),
+        Float.parseFloat(csvRecord.get(11))
+    );
     return styleEntity;
   }
 }
