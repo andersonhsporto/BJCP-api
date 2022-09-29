@@ -4,7 +4,7 @@
 </p>
 
   &emsp;Taygeta é uma [API REST](https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api)
-que utiliza dados do [Beer Judge Certification Program](https://www.bjcp.org/) e o framework
+que utiliza dados do [Beer Judge Certification Program](https://github.com/andersonhsporto/BJCP-csv) e o framework
 [spring](https://spring.io/projects/spring-boot).
 
 </br>
