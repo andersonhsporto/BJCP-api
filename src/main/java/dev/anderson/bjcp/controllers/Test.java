@@ -1,13 +1,7 @@
 package dev.anderson.bjcp.controllers;
 
 import dev.anderson.bjcp.services.CsvReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,6 +21,6 @@ public class Test {
   @GetMapping
   public void get() throws IOException {
     csvReader.read();
-}
+  }
 
 }

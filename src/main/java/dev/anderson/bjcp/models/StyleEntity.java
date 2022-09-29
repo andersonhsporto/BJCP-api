@@ -8,7 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.commons.csv.CSVRecord;
-import org.springframework.boot.autoconfigure.web.WebProperties.Resources.Chain.Strategy.Fixed;
 
 @Entity
 @Data
