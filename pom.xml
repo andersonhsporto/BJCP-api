@@ -10,11 +10,13 @@
 	</parent>
 	<groupId>dev.anderson</groupId>
 	<artifactId>bjcp-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>bjcp-api</name>
 	<description>bjcp-api</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>18</java.version>
+		<jdk.version>18</jdk.version>
+		<spring-boot.version>2.7.3</spring-boot.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -59,7 +61,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<excludes>
+
+				<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
