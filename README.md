@@ -27,8 +27,7 @@ para fornecer informações sobre estilos de cerveja.
 Requisições para a API devem seguir os padrões:
 | Método | Rota | Descrição |
 |:---:    |:---: |:---:      |
-| `GET`              | `/api/v1/styles`| Retorna uma lista ( JSON ) com os dados de todos os estilos
-de cervejas disponíveis no BJCP |
+| `GET`              | `/api/v1/styles`| Retorna uma lista ( JSON ) com os dados de todos os estilos de cervejas disponíveis no BJCP |
 
 ## Inicialização
 
