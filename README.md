@@ -41,16 +41,16 @@ Este comando irá iniciar um contêiner com a api na porta `8080`.
 
 Para gerar o artefato da api utilize o comando:
 
-    ```sh
+```sh
     mvn clean install
-    ```
+```
 
 Este comando irá gerar um arquivo `jar` na pasta `target` do projeto.
 
 ## Dependências
 
 &emsp;As dependências são declaradas no
-arquivo [pom.xml](https://github.com/andersonhsporto/taygeta-api/blob/master/pom.xml).
+arquivo [pom.xml](https://github.com/andersonhsporto/BJCP-api/blob/master/pom.xml).
 
 | Dependência                     | Descrição                                                          | Versão  |
 | :----------------------------:  | :---------------------------------------------------------------: | :-----: |
