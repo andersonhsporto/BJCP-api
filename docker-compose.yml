@@ -1,0 +1,11 @@
+services:
+  app:
+    image: 'bjcp-api-v1:latest'
+    container_name: bjcp-api
+    build:
+      context: .
+    ports:
+      - '8080:8080'
+
+volumes:
+  volumes:
