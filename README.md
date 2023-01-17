@@ -33,7 +33,6 @@ Requisições para a API devem seguir os padrões:
 
 Clone o projeto utilizando a flag ```--recursive``` para clonar o submodulo do [BJCP-csv](https://github.com/andersonhsporto/BJCP-csv).
 
-```bash
 
 Para iniciar a api utilize o comando:
 
