@@ -44,7 +44,7 @@ public class StyleEntity {
   private Float srmMax;
 
   public static StyleEntity fromCsv(CSVRecord csvRecord) {
-    StyleEntity styleEntity = new StyleEntity(
+    return new StyleEntity(
         0L,
         csvRecord.get(0),
         csvRecord.get(1),
@@ -59,6 +59,5 @@ public class StyleEntity {
         Float.parseFloat(csvRecord.get(10)),
         Float.parseFloat(csvRecord.get(11))
     );
-    return styleEntity;
   }
 }
