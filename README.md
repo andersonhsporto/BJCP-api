@@ -31,6 +31,10 @@ Requisições para a API devem seguir os padrões:
 
 ## Inicialização
 
+Clone o projeto utilizando a flag ```--recursive``` para clonar o submodulo do [BJCP-csv](https://github.com/andersonhsporto/BJCP-csv).
+
+```bash
+
 Para iniciar a api utilize o comando:
 
 ```sh
@@ -63,9 +67,9 @@ arquivo [pom.xml](https://github.com/andersonhsporto/BJCP-api/blob/master/pom.xm
 ## Segurança
 
 &emsp;A API utiliza o Spring Security para autenticação e autorização de usuários.
-para configurar o Oauth2 edite o arquivo appllication.yaml e inclua os ids (google) e segredo do cliente.
+Para configurar o Oauth2 edite o arquivo appllication.yaml e inclua os ids e segredo do cliente fornecidos pelo google.
 </br>
-```yaml
+
 
 <p align=left> <b>Minhas informações de contato 📬</b></p>
 <p align=left>
