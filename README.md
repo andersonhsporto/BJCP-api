@@ -53,11 +53,19 @@ Este comando irá gerar um arquivo `jar` na pasta `target` do projeto.
 arquivo [pom.xml](https://github.com/andersonhsporto/BJCP-api/blob/master/pom.xml).
 
 | Dependência                     | Descrição                                                          | Versão  |
-| :----------------------------:  | :---------------------------------------------------------------: | :-----: |
+| :----------------------------:  | :---------------------------------------------------------------: |:-------:|
 | H2database                      | Banco de dados relacional escrito em Java que funciona em memória | 2.1.214 |
-| Spring-boot-starter-data-jpa    | Responsável por conectar a aplicação Spring como o banco de dados | 2.7.4   |
-| Spring-boot-starter-web         | Responsável pela camada MVC do Spring                             | 2.7.4   |
-| Springfox-swagger-ui            | Documentação JSON API para aplicações Spring                      | 3.0.0   |
+| Spring-boot-starter-data-jpa    | Responsável por conectar a aplicação Spring como o banco de dados |  2.7.4  |
+| Spring-boot-starter-web         | Responsável pela camada MVC do Spring                             |  2.7.4  |
+| Springfox-swagger-ui            | Documentação JSON API para aplicações Spring                      |  3.0.0  |
+| SpringSecurity                  | Responsável pela segurança da API                                 |   6.0   |
+
+## Segurança
+
+&emsp;A API utiliza o Spring Security para autenticação e autorização de usuários.
+para configurar o Oauth2 edite o arquivo appllication.yaml e inclua os ids (google) e segredo do cliente.
+</br>
+```yaml
 
 <p align=left> <b>Minhas informações de contato 📬</b></p>
 <p align=left>
