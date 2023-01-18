@@ -69,13 +69,6 @@ arquivo [pom.xml](https://github.com/andersonhsporto/BJCP-api/blob/master/pom.xm
 Para configurar o Oauth2 edite o arquivo appllication.yaml e inclua os ids e segredo do cliente fornecidos pelo google.
 </br>
 
-
-<p align=left> <b>Minhas informações de contato 📬</b></p>
-<p align=left>
-<a href="https://github.com/andersonhsporto" target="_blank"><img src="https://img.shields.io/badge/Github-181717?logo=Github&logoColor=white"/></a>  
-<a href="mailto:anderson.higo2@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?logo=Gmail&logoColor=white"/></a>
-<a href= "https://www.linkedin.com/in/andersonhsporto/"target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
-
 ***
 
 Copyright © 2015, BJCP, Inc.
@@ -86,3 +79,13 @@ All other rights reserved.
 The 2015 guidelines were replaced by the 2021 guidelines, so the prior version is no longer valid.
 
 you can find the current version on www.bjcp.org
+
+</br>
+</br>
+</br>
+
+<p align=left> <b>Minhas informações de contato 📬</b></p>
+<p align=left>
+<a href="https://github.com/andersonhsporto" target="_blank"><img src="https://img.shields.io/badge/Github-181717?logo=Github&logoColor=white"/></a>  
+<a href="mailto:anderson.higo2@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-EA4335?logo=Gmail&logoColor=white"/></a>
+<a href= "https://www.linkedin.com/in/andersonhsporto/"target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
