@@ -15,10 +15,10 @@ public class SecurityConfig {
   @Bean
   SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
     return http.authorizeHttpRequests(authorizeConfig -> {
-          authorizeConfig.requestMatchers("/api/v1/styles").permitAll();
           authorizeConfig.anyRequest().authenticated();
         }).oauth2Login(Customizer.withDefaults())
-        .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt).build();
+        .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt)
+        .build();
   }
 
 
